@@ -1,0 +1,11 @@
+{"context":{"approved_facts":["Used by 120 teams","Cuts reply time by 30%"],"suppression_list":["nope@acme.com"],"max_words":80},
+ "emails":[
+  {"id":"ok-1","from":"a@send.io","to":"jane@x.com","subject":"Quick idea for Acme","body":"Hi Jane, saw you hire SDRs. We are used by 120 teams and cut reply time by 30%. Worth a chat? Reply STOP to opt out."},
+  {"id":"token-2","from":"a@send.io","to":"bob@y.com","subject":"Hi {{first_name}}","body":"Hello {{first_name}}, we help. Reply STOP to opt out."},
+  {"id":"claim-3","from":"a@send.io","to":"c@z.com","subject":"Growth","body":"We are used by 5000 teams and triple revenue 10x. Reply STOP to opt out."},
+  {"id":"noopt-4","from":"a@send.io","to":"d@w.com","subject":"Hello","body":"Hi, we have a tool for you. Worth a chat?"},
+  {"id":"spam-5","from":"a@send.io","to":"e@v.com","subject":"Act now","body":"Guaranteed results, risk-free. Reply STOP to opt out."},
+  {"id":"supp-6","from":"a@send.io","to":"nope@acme.com","subject":"Hi","body":"Used by 120 teams. Reply STOP to opt out."},
+  {"id":"ok-7","from":"a@send.io","to":"f@u.com","subject":"Idea","body":"Used by 120 teams. Reply STOP to opt out."},
+  {"id":"ok-8","from":"a@send.io","to":"g@t.com","subject":"Idea 2","body":"Cuts reply time by 30%. Reply STOP to opt out."}
+ ]}
